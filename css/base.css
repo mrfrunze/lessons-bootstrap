@@ -1,0 +1,138 @@
+header{
+    background-color: #f8f8f8;
+}
+
+header ul{
+    margin: 0;
+}
+
+/* 1rem = 10px */
+
+header a, header li{
+    padding: 1.4rem 0;
+    color: #777;
+    font-weight: bold;
+}
+
+#intro-header{
+    background-image: url(../img/landscape.jpg);
+    background-size: cover;
+}
+
+#intro-header .wrap-headline{
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#intro-header h1, #intro-header h2{
+    color: #fff;
+}
+
+#intro-header h2{
+    font-size: 1.5em;
+}
+
+#intro-header hr{
+    width: 10%;
+}
+
+#intro-header .btn-default{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+#about img{
+    margin-top: 6.5rem;
+    margin-bottom: 5rem;
+}
+
+#about H3{
+    margin-top: 10rem;
+}
+
+#feature{
+    background-color: #eef2f5;
+    border-bottom: 0.1rem solid #e9e9e9;
+    border-top: 0.1rem solid #e9e9e9;
+}
+
+#feature *{
+    color: #657c8e;
+}
+
+#feature .feature{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+#pricing h3.price-headline{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+#pricing .white-text{
+    color:#fff;
+}
+
+#pricing thead .success{
+    background-color: #78cfbf;
+}
+
+#pricing thead .danger{
+    background-color: #e3536c;
+}
+
+#pricing thead .info{
+    background-color: #3ec6e0;
+}
+
+#pricing tbody .success{
+    background-color: #82daca;
+}
+
+#pricing tbody .info{
+    background-color: #53cfe9;
+}
+
+#pricing tbody .danger{
+    background-color: #eb6379;
+}
+
+footer{
+    background-color: #191919;
+    color: #adadad;
+    margin-top: 3rem;
+}
+
+footer h5, footer img{
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+footer address{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #5a5a5a;
+}
+
+footer ul{
+    margin-bottom: 5rem;
+}
+
+footer address strong{
+    color: #adadad;
+    display: block;
+    padding-bottom: 0.62rem;
+}
+
+footer a{
+    color: #5a5a5a;
+    font-weight: 300;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:#fff;
+}
