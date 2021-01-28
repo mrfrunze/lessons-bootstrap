@@ -100,6 +100,26 @@ header a, header li{
     background-color: #eb6379;
 }
 
+/* newsletter */
+#newsletter{
+    border-top: 1px solid #e0e0e0; 
+    padding-top: 3.em; 
+    margin-top:2em; 
+}
+
+#newsletter h4{
+    padding: 1em;
+}
+
+#newsletter form{
+    padding: 1em;
+    padding-top: 2em;
+    margin-bottom: 5.5em;
+}
+
+
+/* footer */
+
 footer{
     background-color: #191919;
     color: #adadad;
@@ -135,4 +155,10 @@ footer a{
 footer a:hover{
     text-decoration: none;
     color:#fff;
+}
+
+/* contact form */
+section#contact form{
+    padding-top: 9em;
+    padding-bottom: 3em;
 }
