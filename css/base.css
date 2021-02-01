@@ -64,7 +64,23 @@ header a, header li{
 #feature .feature{
     padding-top: 2rem;
     padding-bottom: 4rem;
-    text-align: center;
+    text-align: left;
+}
+
+#feature .glyphicon{
+    font-size: 2rem;
+}
+
+#feature .glyphicon-heart{
+    color:#e04c4c;
+}
+
+#feature .feature-tag{
+    max-width: 10.7em;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1.5em;
+    font-size: 1.7em;
 }
 
 #pricing .center-block{
