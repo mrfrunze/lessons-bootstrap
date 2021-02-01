@@ -30,9 +30,24 @@
                     <h2 class="text-center">Tagline message</h2>
                     <hr>
                     <ul class="list-inline list-unstyled text-center">
-                        <li><a href="#" class="btn btn-default btn-lg">Sing in</a></li>
+                        <li><a href="#" id="sign-btn" class="btn btn-default btn-lg">Sing in</a></li>
                         <li><a href="#" class="btn btn-primary btn-lg">Sing up</a></li>
                     </ul>
+                    <form id="signin" class="form-inline text-center hidden-element">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input type="text" class="form-control" id="signin-email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">*</div>
+                                <input type="password" class="form-control" id="signin-password" placeholder="Password">
+                            </div>
+                        </div>
+                        <button class="btn btn-default" type="submit">Sign in</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -98,7 +113,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
+                <div class="center-block">
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
@@ -161,6 +176,31 @@
             </div>
         </div>
     </section>
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="list-inline list-unstyled text-center">
+                        <li class="bg-success">
+                            <img src="img/dog-1.jpg" alt="" class="img-rounded">
+                            <h5 class="text-info">Joony Doo</h5>
+                            <p class="text-muted">CEO</p>
+                        </li>
+                        <li class="bg-success">
+                            <img src="img/dog-2.jpg" alt="" class="img-circle">
+                            <h5 class="text-info">Joony Doo</h5>
+                            <p class="text-muted">CTO</p>
+                        </li>
+                        <li class="bg-success">
+                            <img src="img/dog-3.jpg" alt="">
+                            <h5 class="text-info">Joony Doo</h5>
+                            <p class="text-muted">CIO</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="newsletter" class="text-center">
         <h4>Stay connected with us. Join the newsletter to receive fresh info.</h4>
         <form action="" class="form-inline" method="POST">
@@ -217,5 +257,6 @@
     </footer>
     <script src="js/jquery-2.0.0.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

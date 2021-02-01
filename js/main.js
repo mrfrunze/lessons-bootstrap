@@ -1,4 +1,11 @@
 $(document).ready(function () {
+   // intro-header - form
+   $('#sign-btn').on('click', function(e){
+      $(e.currentTarget).closest('ul').hide();
+      $('form#signin').fadeIn("fast");
+   });
+
+   // form before footer
    $("#contact form").on("submit", function(e){
       e.preventDefault();
       var $from = $(e.currentTarget),

@@ -67,6 +67,10 @@ header a, header li{
     text-align: center;
 }
 
+#pricing .center-block{
+    width: 90%;
+}
+
 #pricing h3.price-headline{
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -161,4 +165,22 @@ footer a:hover{
 section#contact form{
     padding-top: 9em;
     padding-bottom: 3em;
+}
+
+/* intro-header - form */
+.hidden-element{
+    display: none;
+}
+
+#team ul{
+    margin: 5rem 0;
+}
+
+#team ul li{
+    margin:0 5rem;
+}
+
+#team h5{
+    font-size:1.5rem;
+    font-weight: bold;
 }
