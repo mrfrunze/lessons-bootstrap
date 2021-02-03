@@ -9,19 +9,42 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <a href="#" class="pull-left brand">Company name</a>
-                <ul class="list-inline list-unstyled pull-right">
+    <!-- <header class="header"> -->
+        <nav class="navbar navbar-default navbar-fixed-top bg-info" >
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Company name</a>
+                <button type="button" class="navbar-toggle collapsed" data-target="#nav-menu" data-toggle="collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- dropdown-menu -->
+            <div class="btn-group pull-right">
+                <button type="button" class="btn btn-primary">Custom Area </button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-pressed="false" aria-haspopup="true">
+                    <span class="caret"></span> 
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Aother action</a></li>
+                    <li><a href="#">Somthing else here</a></li>
+                    <li role="separator" class="divider"><a href="#"></a></li>
+                    <li><a href="#">Separetion link</a></li>
+                </ul>
+            </div>
+            <div id="nav-menu" class="collapse navbar-collapse navbar-right" >
+                <ul class="navbar-nav nav">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </div>
-    </header>
+        </nav>
+    <!-- </header> -->
     <section id="intro-header">
         <div class="container">
             <div class="row">

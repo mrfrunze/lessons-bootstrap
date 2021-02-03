@@ -1,3 +1,8 @@
+
+body{
+    padding-top: 3.6em;
+}
+
 header{
     background-color: #f8f8f8;
 }
@@ -200,3 +205,22 @@ section#contact form{
     font-size:1.5rem;
     font-weight: bold;
 }
+
+#nav-menu{
+    margin-right: 1rem;
+}
+
+nav .btn-group{
+    margin: 0.8rem 2rem 0 0;
+}
+
+
+
+/* ========== media ========== */
+@media(max-width:48em){
+    nav .btn-group{
+        position: absolute;
+        top: 0;
+        right: 4em;
+    }
+ }
