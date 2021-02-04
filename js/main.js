@@ -20,4 +20,10 @@ $(document).ready(function () {
             $button.after('<span>Message sent. We will contact you soon</span>')
          }
    });
+
+   $('#menu__items > li').click(function() {
+      $(this).addClass('active')
+      $('#menu__items > li').not(this).removeClass('active')
+    });
+
 });
